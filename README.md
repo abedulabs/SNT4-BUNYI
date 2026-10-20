@@ -1,20 +1,22 @@
-SAINS TAHUN 4 — BUNYI (GitHub Pages)
+SAINS TAHUN 4 — BUNYI | GitHub Pages
 
-Struktur:
+Fail projek:
 - index.html
+- assets/sonar-scene.jpg
+- assets/bat-scene.jpg
+- assets/cave-scene.png
 - audio/dragon-studio-deepsea-sonar-386156.mp3
 - audio/the-vampires-monster-bat-chirping-type-2-355965.mp3
 - audio/dragon-studio-droplets-in-a-cave-482871.mp3
 
-Kemas kini:
-- Simulator A sonar di laut menggunakan gelombang bunyi sepusat dan audio MP3 sonar.
-- Simulator B kelawar mengeluarkan gelombang ultrasonik dan audio MP3 kelawar.
-- Simulator C menunjukkan titisan air dalam gua di antara stalaktit dan stalagmit, dengan gelombang pantulan serta audio titisan air.
-- Setiap simulator menunjukkan gelombang bergerak/pantulan dan mempunyai butang audio.
+Penambahbaikan:
+- Simulator menggunakan ilustrasi kapal/laut, kelawar di dalam gua dan gua batu kapur tanpa label bertulis pada gambar.
+- Butang Mula simulasi mengaktifkan animasi gelombang bunyi asal dan gelombang pantulan.
+- Butang 🔊 memainkan fail MP3 sebenar yang dibekalkan.
+- Butang Henti/reset menghentikan animasi dan audio yang sedang dimainkan.
+- Fungsi markah, 21 soalan objektif dan tab eksperimen/struktur dikekalkan.
 
-PENTING: Muat naik keseluruhan struktur folder ini ke repository GitHub, bukan index.html sahaja. Pastikan folder `audio` berada pada aras yang sama dengan `index.html`.
+PENTING: Muat naik semua fail dan folder pada aras yang sama seperti struktur ZIP. Jangan muat naik index.html sahaja, kerana imej dan MP3 diperlukan.
 
-GitHub Pages:
-Settings > Pages > Deploy from a branch > main > /(root) > Save.
-
-Data eksperimen dalam carta palang ialah data simulasi contoh. Penilaian kendiri soalan struktur memeriksa kelengkapan jawapan sahaja; guru perlu menyemak ketepatan saintifik.
+GitHub Pages: Settings > Pages > Deploy from a branch > main > /(root) > Save.
+Nota: audio hanya mula selepas murid menekan butang audio, mengikut sekatan autoplay pelayar. Carta eksperimen ialah data contoh.
