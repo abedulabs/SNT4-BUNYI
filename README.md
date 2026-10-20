@@ -1,23 +1,20 @@
 SAINS TAHUN 4 — BUNYI (GitHub Pages)
 
-Kandungan:
-- index.html: satu laman responsif dengan 3 tab.
-- Tab 1: tiga simulator (sonar dan ikan paus, kelawar/ultrasonik, gema di gua) dengan animasi dan kesan audio yang dijana melalui Web Audio API apabila ikon bunyi ditekan.
-- Tab 2: 21 soalan objektif, 1 markah setiap soalan.
-- Tab 3: eksperimen contoh, carta palang, 7 soalan struktur saintifik, medan jawapan, penilaian kendiri dan muat turun jawapan TXT.
-- Slip pencapaian asas / cetak PDF.
+Struktur:
+- index.html
+- audio/dragon-studio-deepsea-sonar-386156.mp3
+- audio/the-vampires-monster-bat-chirping-type-2-355965.mp3
+- audio/dragon-studio-droplets-in-a-cave-482871.mp3
 
-Penerbitan GitHub Pages:
-1. Cipta repository baharu, contohnya SAINS-T4-BUNYI.
-2. Muat naik index.html (README.md pilihan).
-3. Buka Settings > Pages.
-4. Pada Build and deployment, pilih Deploy from a branch.
-5. Pilih branch main dan folder /(root), kemudian Save.
-6. Buka URL GitHub Pages yang dipaparkan selepas deployment selesai.
+Kemas kini:
+- Simulator A sonar di laut menggunakan gelombang bunyi sepusat dan audio MP3 sonar.
+- Simulator B kelawar mengeluarkan gelombang ultrasonik dan audio MP3 kelawar.
+- Simulator C menunjukkan titisan air dalam gua di antara stalaktit dan stalagmit, dengan gelombang pantulan serta audio titisan air.
+- Setiap simulator menunjukkan gelombang bergerak/pantulan dan mempunyai butang audio.
 
-Nota:
-- Semua fail berjalan terus dalam pelayar; tiada library luar diperlukan.
-- Audio hanya dimainkan selepas pengguna menekan butang, kerana pelayar menyekat audio autoplay.
-- Data eksperimen dalam carta ialah data simulasi contoh, bukan bacaan sebenar.
-- Pemarkahan automatik struktur hanya menilai sama ada jawapan diisi; guru perlu menyemak ketepatan jawapan.
-- Markah simulator dikira 3 markah bagi setiap simulasi yang murid cuba (Mula atau tekan ikon audio), maksimum 9 markah. Guru boleh mengesahkan penguasaan murid melalui pemerhatian.
+PENTING: Muat naik keseluruhan struktur folder ini ke repository GitHub, bukan index.html sahaja. Pastikan folder `audio` berada pada aras yang sama dengan `index.html`.
+
+GitHub Pages:
+Settings > Pages > Deploy from a branch > main > /(root) > Save.
+
+Data eksperimen dalam carta palang ialah data simulasi contoh. Penilaian kendiri soalan struktur memeriksa kelengkapan jawapan sahaja; guru perlu menyemak ketepatan saintifik.
